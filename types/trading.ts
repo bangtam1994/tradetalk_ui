@@ -21,7 +21,7 @@ export interface Trade {
 export interface JournalEntry {
   content: string;
   mood: string;
-  psycho_analyses: PsychoAnalysis | null;
+  psycho_analyses?: PsychoAnalysis | null;
 }
 
 export interface DayData {
